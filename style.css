@@ -1,0 +1,661 @@
+                              
+body{
+    background-color:#b5b5b5;
+}
+
+/*------------  header part-----------------*/
+ 
+#header #banner{
+    background-color:#3c3c3c;
+    color: white;width: 100%;height: 85px;border-radius: 20px 20px 0px 0px;
+    font: bold 75px Edwardian Script ITC;
+    margin: 0px;
+}
+#banner span{
+    color: white;
+    font: bold 75px BankGothic Md BT;
+    
+}   
+
+
+/* ----------------menu part-------------- */
+
+
+#banner ul
+{   float: right;
+    font-size: 20px;
+list-style-type: none;
+word-spacing: 2px;
+margin-top: 50px;margin-right: 30px;
+}
+
+
+#banner ul li{
+    display: inline;
+    font: 100 20px Bradley Hand ITC;
+}
+#banner ul li a{    
+    text-decoration: none; background-color: #131313;
+    border: 2px solid #131313;border-radius: 25px;
+    padding :4px 30px ;
+    color: white;
+}
+#banner ul li a:hover{
+    color: black;
+
+background-color: #b5b5b5;          
+}
+
+/*------------------ labding ---------*/
+#landingpage{
+    background-color: #0A0A0A;width: 100%;
+    height: 600px;
+}
+.abc{
+    float: left;
+     margin-top: 160px;margin-left: 140px;
+     color: white;
+     font: 20px Outfit;
+}
+.tit{
+    color:rgb(241, 197, 139);
+    font: bold 20px Outfit;
+   
+}
+.quotes {
+    font:bold 30px Cormorant Garamond;
+    word-spacing: 6px;
+    color: white;
+}
+.abo{
+    color: white;
+    font:17px Outfit; 
+    letter-spacing: 1px;word-spacing: 3px;}
+
+
+#qbutton li{
+    display: inline;
+    font:bold 20px Bradley Hand ITC;
+} 
+#qbutton{
+     margin-left:-40px;
+
+}
+#qbutton li a{
+    text-decoration: none;
+    border: 2px solid rgb(241, 197, 139);border-radius: 25px;
+    padding :4px 45px ;
+    margin: 15px;
+}
+#comb a{ color: black;
+    background-color:rgb(241, 197, 139);
+}
+#porb a{
+    border-color: rgb(133, 101, 60);
+    color:white;
+}
+#comb a:hover{
+    background-color: #b5b5b5;
+    border-color: #b5b5b5;
+}
+#porb a:hover{
+    background-color: #b5b5b5;
+    border-color: #b5b5b5;
+    color: black;
+}
+.face{
+    width: 250px;height: 250px;
+    margin-top: 40px;margin-right: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #C9A84C;
+}
+#faces{
+    float: right;
+    margin-top: 100px;
+}
+#names{
+    color:rgb(241, 197, 139);
+    margin-left: 60px;    
+    font-size: 30px;
+    margin-top: 10px;
+}
+.icon{
+    color:white;
+    word-spacing: 50px;
+    font-size: 30px;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+.icon a{
+    text-decoration: none;
+    color: #D4A843
+}
+.icon :hover{
+    background-color: #cfc7c7;
+    color: black;
+    padding: 3px;
+}
+
+
+/* ----------------about me content-------------*/
+
+
+#about_me{
+    border: 0px;
+    height: 650px;width: 100%;
+    background-color:BLACK;
+}
+
+#about_img{
+    float: left;
+    margin-left: 150px;
+    margin-top: 200px;
+}
+#about_me_content{
+    float: right;
+    margin-right: 110px;
+}
+#about_head{
+   color:rgb(240, 210, 44);
+    font: 28px Fraunces;
+    letter-spacing: 2px;
+    margin-top: 150px;
+}
+.about_name{
+    color:#C9A84C;
+    font: bold 25px Playfair Display;
+    
+    letter-spacing: 1px;
+}
+.about_para{
+    color: white;
+    font: 19px Karla;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+
+
+/*--------------------portfolio---------------*/
+
+
+#portfolio{
+    margin-top: -20PX;
+    height: 1200px;width: 100%;
+    background-color:#0A0A0A;
+}
+
+.pti{
+    color: #D4A843;
+    font: bold 20px Playfair Display;
+    padding-left: 50px;padding-top: 50px;
+}
+.phead{
+    color:white;
+    font: bold 30px Playfair Display;
+    letter-spacing: 1px;margin-left: 60px;
+}
+#por1{
+ background-color: range;
+height: 300px;width: 20%;
+margin-top:20px;margin-left: 10%;
+border-radius: 10%;
+float: left;}
+#por1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#por2{
+ background-color: orange;
+height: 300px;width: 20%;
+margin-top:20px;margin-left: 10%;
+border-radius: 10%;
+float: left;
+}
+#por2 img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+#por3{
+ background-color: orange;
+height: 300px;width: 20%;
+margin-top:20px;margin-right: 10%;
+border-radius: 10%;
+float: right;
+}
+#por3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.dhoni{
+    color: #F5F0E8;font:bold 20px Outfit;
+    float: left;width: 20%;margin-left: 130px;
+}
+.cherry{
+    color: #F5F0E8;font:bold 20px Outfit;
+    float: left;width: 20%;margin-left: 110px;
+}
+.ear{
+    color: #F5F0E8;font:bold 20px Outfit;
+    float: right;width: 20%;margin-right: 120px;
+}
+#por4{
+clear: both;
+background-color: orange;
+height: 300px;width: 20%;
+margin-top:50px;margin-left: 10%;margin-bottom: 15px;
+border-radius: 10%;
+float: left;}
+#por4 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#por5{
+ background-color: orange;
+height: 300px;width: 20%;
+margin-top:50px;margin-left: 10%;
+border-radius: 10%;
+float: left;
+}
+#por5 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#por6{
+ background-color: orange;
+height: 300px;width: 20%;
+margin-top:50px;margin-right: 10%;
+border-radius: 10%;
+float: right;
+}
+#por6 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    }
+
+.krishna{clear: both;
+    color: #F5F0E8;font:bold 20px Outfit;
+    float: left;width: 20%;margin-left: 130px;
+}
+.anu{
+    color: #F5F0E8;font:bold 20px Outfit;
+    float: left;width: 20%;margin-left: 110px;
+}
+.sam{
+    color: #F5F0E8;font:bold 20px Outfit;
+    float: right;width: 20%;margin-right: 120px;
+}
+#por_view{
+    clear: both;
+  
+    padding: 50px;
+
+}
+#por_view a{
+    color: black;
+    background-color:rgb(241, 197, 139);
+    padding: 10px 40px;border-radius:50px;
+    margin-left:500px;
+    font: bold 20px Outfit;
+    text-decoration:none ;
+}#por_view a:hover{
+    background-color: #b5b5b5;
+    border-color: #b5b5b5;
+}
+
+/*----------------what i offer -------------*/
+
+#services{
+    background-color: black;
+    height: 850px;width: 100%;
+}
+#serhead{
+    padding-top: 50px;
+}
+
+.sergold{
+    color: #c7a445;font: bold 20px Playfair Display;
+    word-spacing: 0px;
+}
+.serpri{
+    color: white;font:bold 30px Playfair Display;
+}
+.serpar{
+    color: #B8B4AC;font:  15px Lora;word-spacing: 3px;
+}
+.print{
+background-color:rgb(17, 16, 16);border:2px solid #b5b5b5;
+height: 500px;width: 20%;
+margin-top:70px;margin-left:13%;
+border-radius: 20px;
+float: left;padding: 8px;
+}
+.custom{background-color:#110e06;border:2px solid #c7a445;
+height: 500px;width:20%;
+margin-top:70px;margin-left:5%;
+border-radius: 20px;
+float: left;padding: 8px;
+
+}
+.bu{
+    color:black;
+    position: absolute;
+    background-color: #c7a445;
+    padding: 3px 10px;border-radius: 20px;
+    transform: translateX(-50%);
+    margin-left: 120px;
+    margin-top: -20px;
+    font-size: 15px;
+}
+.premium{
+background-color:rgb(17, 16, 16);border:2px solid #b5b5b5;
+height: 500px;width:20%;
+margin-top:70px;margin-left:5%;
+border-radius: 20px;
+float: left;padding: 8px;
+}
+#services i{
+    background-color: #1b1107;color:#f0c949;padding: 14px;
+    margin-top: 40px;margin-left: 20px;border-radius: 6px;
+}
+.sercard{
+    font: 20px Playfair Display;
+    color: white;
+    margin-left: 20px;
+   
+}
+.sercardp{
+    font: 15px lora;color: #B8B4AC;
+    margin-left: 20px;margin-top: 4px;letter-spacing: 0.5px;
+}
+.ruppe span{color: #C9A84C;font: bold 35px Playfair Display;
+    margin-left: 20px;
+}
+.ruppe{
+    color: #B8B4AC;
+}
+#services ul{
+    color: #b5b5b5;
+    line-height: 30px;
+}
+.ruppebutton{
+    text-decoration: none;
+    font:18px arial;
+    color: white;
+    border: 2px solid #3c3c3c;
+    padding: 10px 15px;
+    border-radius: 10px    
+}
+a:hover{
+    background-color: #3c3c3c;
+}
+#serfoot{clear: both;
+    color: rgb(122, 98, 98);
+    padding: 2px;
+}
+#serfoot span{
+    color: #c7a445;
+}
+
+
+
+/*----------------------------contact info---------------------*/
+
+
+
+
+#footer{
+    background-color: #0A0A0A;
+    height: 700px;
+    padding: 70px 70px 0px 70px;
+    border-radius: 0px 0px 20px 20px;
+}
+#contact{
+    width: 50%;
+    height: 500px;
+    float: left;
+}
+#input{ 
+    width: 45%;
+    height: 500px;
+    float: right;
+}
+#foot{clear:both;
+    height: 100px;
+    margin-top: 550px;
+}
+#congold{
+    font: bold 17px Outfit;
+    color: #f0c949;
+    letter-spacing: 1PX;word-spacing: 4PX;
+}
+#contitle{
+    font: bold 30px Playfair Display;
+    color: white;
+    word-spacing: 2px;letter-spacing: 1px;
+}
+#conp{
+    font:20px Outfit;
+    color: #685555;
+    letter-spacing: 1px;word-spacing: 1px;
+}
+.conicon{
+    background-color: #1b1107;color:#f0c949;padding: 15px;
+   border-radius: 10px;font-size: 25px;
+}
+
+.dark{
+    color: rgb(211, 207, 207);margin-left: 20px;
+    font: 20px Playfair Display;
+}
+#contact ul li{
+    display: inline;
+    font:bold 15px Bradley Hand ITC;
+} 
+#contact ul{
+     margin-left:-40px;margin-top: 60px;
+
+}
+#contact ul li a{
+    text-decoration: none;
+    border: 2px solid #3c3c3c;border-radius: 10px;
+    padding :10px 15px ;
+    margin: 15px;word-spacing: 7px;
+    background-color: #1a1919;
+}
+#contact ul li a i{
+    color: #C9A84C;font-size: 20px;
+}
+#contact ul li a {
+    color: white;
+}
+#contact ul li a:hover{
+    background-color: #3c3c3c;
+}
+#ingold{
+    font: bold 17px Outfit;
+    color: #f0c949;
+    letter-spacing: 2PX;word-spacing: 4PX;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Side by side row */
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 13px;
+  align-items: start; 
+}
+#name{
+    margin-left: -1px;
+    width: 100%;
+}
+#num{
+    margin-left: 20px;
+}
+.form-group input,
+.form-group textarea,
+.form-group select {
+  width: 100%;
+}
+
+/* Each field group */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  
+}
+
+/* Labels */
+label {
+  font-size: 14px;
+  color: #8A8680;
+  letter-spacing: 0.04em;
+  font-family: 'Outfit', sans-serif;
+}
+
+/* Input fields */
+input, select, textarea {
+  background: #111111;
+  border: 0.5px solid #2A2A2A;
+  border-radius: 6px;
+  padding: 10px 12px;
+  font-size: 12px;
+  color: #F5F0E8;
+  font-family: 'Outfit', sans-serif;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+/* Placeholder text */
+input::placeholder,
+textarea::placeholder {
+  color: #3a3A3A;
+}
+
+/* Gold border on focus */
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #C9A84C;
+}
+
+/* Dropdown */
+select {
+  cursor: pointer;
+  appearance: none;
+  background-image: url("data:image/svg+xml,...");
+}
+
+/* Message box */
+textarea {
+  resize: none;
+  height: 100px;
+}
+
+/* Submit button */
+button[type="submit"] {
+  color: #0A0A0A;
+  border: none;
+  border-radius: 6px;
+  padding: 11px;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  transition: background 0.1s;
+}
+
+button[type="submit"]:hover {
+  background: #D4A843;
+}
+
+
+/* Gold divider line */
+.gold-line {
+  height: 0.5px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    #C9A84C,
+    transparent
+  );
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 40px;
+  background: #080808;
+}
+
+/* Left — brand & copyright */
+.footer-brand {
+  font-size: 13px;
+  font-weight: 500;
+  color: #F5F0E8;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 4px;
+}
+
+.footer-copy {
+  font-size: 11px;
+  color: #3A3A3A;
+}
+
+/* Gold highlight text */
+.gold-text {
+  color: #C9A84C;
+}
+
+/* Right — nav links */
+.footer-links {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-links a {
+  font-size: 12px;
+  color: #3A3A3A;
+  text-decoration: none;
+  font-family: 'Outfit', sans-serif;
+  transition: color 0.2s;
+}
+
+.footer-links a:hover {
+  color: #C9A84C;
+  background-color: #1a1919;border-radius: 10px;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .footer-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 14px;
+  }
+}
